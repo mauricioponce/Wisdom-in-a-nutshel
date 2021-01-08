@@ -30,9 +30,4 @@ class MainActivity : AppCompatActivity() {
         myViewModel.getQuote()
 
     }
-
-    private fun showMessage() {
-        Log.d("MainActivity", "ohhh que paso")
-        Toast.makeText(this, "MENSAJE", Toast.LENGTH_LONG).show()
-    }
 }
